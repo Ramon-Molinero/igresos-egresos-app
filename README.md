@@ -1,27 +1,72 @@
-# IngresoEgresoApp
+<p align="center">
+  <a href="https://angular.io/" target="blank"><img src="https://angular.io/assets/images/logos/angular/angular.svg" width="120" alt="Angular Logo" /></a>
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+# IngresoEgresoApp 🚀
 
-## Development server
+Aplicación para el manejo de ingresos y egresos, desarrollada con **Angular** versión 13.2.5. Esta app permite registrar, visualizar y gestionar los ingresos y egresos de manera intuitiva.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## **Características principales** 🌟
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- ⚡ **Angular**: Framework robusto para el desarrollo de aplicaciones web.
+- 🛠️ **TypeScript**: Código tipado estáticamente para mayor seguridad.
+- 📊 **Estadísticas en tiempo real**: Visualización de ingresos y egresos mediante gráficos.
+- 📑 **Módulos estructurados**: Gestión modular del proyecto.
+- 🖥️ **Interfaz amigable**: Diseño responsivo con Bootstrap.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## **Requisitos previos** 📋
 
-## Running unit tests
+- **Node.js** y **npm** instalados.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## **Pasos de instalación** ⚙️
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/ramon-molinero/ingreso-egreso-app.git
+   ```
 
-## Further help
+2. Instalar dependencias:
+   ```bash
+   npm install
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Ejecutar en modo desarrollo:
+   ```bash
+   npm run start
+   ```
+
+4. Construir la aplicación para producción:
+   ```bash
+   npm run build
+   ```
+
+---
+
+## **Stack de tecnologías** 🛠️
+
+- **Angular**: Desarrollo de SPA.
+- **TypeScript**: Superset de JavaScript.
+- **Bootstrap**: Diseño responsivo.
+- **RxJS**: Programación reactiva.
+
+---
+
+## **Funcionalidades principales** 🔍
+
+- **Autenticación**: Login y registro de usuarios.
+- **Dashboard**: Panel principal para gestionar ingresos y egresos.
+- **Gestión de transacciones**: Registro, edición y eliminación.
+- **Visualización de estadísticas**: Gráficos y tablas dinámicas.
+- **Navegación modular**: Gestión ordenada a través de módulos.
+
+---
+
+## **Notas** 📚
+
+Esta aplicación está configurada para ejecutarse en modo local o con un servidor remoto especificado en el entorno de producción.
